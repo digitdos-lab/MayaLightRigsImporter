@@ -23,7 +23,7 @@ class LightingRigBrowser(QtWidgets.QDialog):
 
         super(LightingRigBrowser, self).__init__(parent)
 
-        self.setWindowTitle("Lighting Rig Browser")
+        self.setWindowTitle("KAIM27 Lighting Rig Browser")
 
         self.resize(430, 510)
 
@@ -60,7 +60,7 @@ class LightingRigBrowser(QtWidgets.QDialog):
 
         layout = QtWidgets.QVBoxLayout(self)
 
-        layout.addWidget(QtWidgets.QLabel("Lighting Rigs"))
+        layout.addWidget(QtWidgets.QLabel("KAIM27 Lighting Rigs"))
 
         layout.addWidget(self.listWidget)
 
