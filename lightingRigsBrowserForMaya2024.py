@@ -25,7 +25,7 @@ class LightingRigBrowser(QtWidgets.QDialog):
 
         self.setWindowTitle("Lighting Rig Browser")
 
-        self.resize(420, 500)
+        self.resize(430, 510)
 
         
         self.rigFolder = r"T:\jm-dos\LightingToolkit\lightingRigs"
