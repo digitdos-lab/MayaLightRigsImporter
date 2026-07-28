@@ -12,9 +12,9 @@ from PySide2 import QtCore
 
 def maya_main_window():
 
-    mainui = OpenMayaUI.MQtUtil.mainWindow()
+    ptr = OpenMayaUI.MQtUtil.mainWindow()
 
-    return wrapInstance(int(mainui), QtWidgets.QWidget)
+    return wrapInstance(int(ptr), QtWidgets.QWidget)
 
 
 class LightingRigBrowser(QtWidgets.QDialog):
